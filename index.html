@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TekLife - Career Programs</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+            <!-- <style>
+              .tree {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .tree ul {
+                padding-top: 20px; position: relative;
+              }
+              .tree li {
+                float: left; text-align: center;
+                list-style-type: none;
+                position: relative;
+                padding: 20px 5px 0 5px;
+              }
+              .tree li::before, .tree li::after {
+                content: '';
+                position: absolute; top: 0; right: 50%;
+                border-top: 2px solid #ccc;
+                width: 50%; height: 20px;
+              }
+              .tree li::after {
+                right: auto; left: 50%;
+                border-left: 2px solid #ccc;
+              }
+              .tree li:only-child::after, .tree li:only-child::before {
+                display: none;
+              }
+              .tree li:only-child { padding-top: 0; }
+              .tree li:first-child::before, .tree li:last-child::after {
+                border: 0 none;
+              }
+              .tree li:last-child::before {
+                border-right: 2px solid #ccc;
+                border-radius: 0 5px 0 0;
+              }
+              .tree li:first-child::after {
+                border-radius: 5px 0 0 0;
+              }
+            </style> -->
+    </head>
+    <body class="flex flex-col min-h-screen">
+        <header class="bg-gray-800 text-white py-4">
+            <nav class="container mx-auto flex justify-around">
+                <div class="text-2xl uppercase font-bold">TekLife</div>
+                <ul class="flex gap-3 space-x-4">
+                    <li><a href="#" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Courses</a></li>
+                    <li><a href="#" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flex-grow">
+            <section
+                class="bg-gray-200 py-16 h-screen flex justify-center items-center">
+                <div class="container mx-auto text-center">
+                    <h1 class="text-6xl font-bold mb-4">TekLife - Career
+                        Programs</h1>
+                    <p class="mb-6">Transform your career with our
+                        industry-ready courses.</p>
+                    <a href="#courses"
+                        class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Get
+                        Started</a>
+                </div>
+            </section>
+            <section class="py-16 px-10 bg-gray-50" id="courses">
+                <div class="container mx-auto text-center ">
+                    <h2 class="text-3xl font-bold mb-8">Our Courses</h2>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                            <div><span><i
+                                        class="text-4xl mb-2 mb-2 fa-solid fa-code"></i></span>
+                                <h3 class="text-xl font-semibold mb-2">FrontEnd
+                                    Development</h3>
+                                <p class="py-2 mb-2">Master the basics of HTML,
+                                    CSS, and JavaScript, then dive into advanced
+                                    topics like responsive design, DOM
+                                    manipulation, and version control, equipping
+                                    you for a career in front-end
+                                    development.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div> </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                            <div><span><i
+                                    class="text-4xl mb-2 fa-solid fa-share-nodes"></i></span>
+                            <h3 class="text-xl font-semibold mb-2">BackEnd
+                                Development</h3>
+                            <p class="py-2 mb-2">Delve into server-side
+                                programming with languages like Python, Node.js,
+                                or Java, mastering database management, RESTful
+                                APIs, authentication, and deployment strategies,
+                                to become proficient in backend development.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                          <div>  <span><i class="text-4xl mb-2 fas fa-brain"></i>
+
+                          </span>
+                          <h3 class="text-xl font-semibold mb-2">AI & Machine
+                              Learning</h3>
+                          <p class="py-2 mb-2">Explore the world of Artificial
+                              Intelligence and Machine Learning, covering
+                              foundational concepts, algorithms, data
+                              preprocessing, model training, evaluation
+                              techniques, and deployment strategies,
+                              empowering you to build intelligent systems and
+                              applications.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                          <div>  <span><i class="text-4xl mb-2 fas fa-chart-pie"></i>
+
+                          </span>
+                          <h3 class="text-xl font-semibold mb-2">Data
+                              Analysis</h3>
+                          <p class="py-2 mb-2">Gain expertise in data
+                              manipulation, visualization, and statistical
+                              analysis using Python or R, mastering techniques
+                              like data cleaning, exploratory data analysis,
+                              and hypothesis testing to extract meaningful
+                              insights from diverse datasets.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                           <div> <span><i
+                            class="text-4xl mb-2 fas fa-chart-line"></i>
+                    </span>
+                    <h3 class="text-xl font-semibold mb-2">Data
+                        Science</h3>
+                    <p class="py-2 mb-2">Embark on a comprehensive
+                        journey through the data science lifecycle, from
+                        data acquisition and cleaning to model building
+                        and evaluation, leveraging machine learning
+                        algorithms, data visualization tools, and big
+                        data technologies to solve complex real-world
+                        problems.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                          <div>  <span><i
+                            class="text-4xl mb-2 fas fa-chalkboard-teacher"></i>
+                    </span>
+                    <h3 class="text-xl font-semibold mb-2">Career
+                        Consulting</h3>
+                    <p class="py-2 mb-2">Receive personalized guidance
+                        and support in defining career goals, crafting
+                        resumes, improving interview skills, and
+                        developing a professional online presence,
+                        empowering you to navigate the job market with
+                        confidence and clarity.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                           <div> <span><i class="text-4xl mb-2 fas fa-file-alt"></i>
+                           </span>
+                           <h3 class="text-xl font-semibold mb-2">Advance
+                               Excel</h3>
+                           <p class="py-2 mb-2">Unlock the full potential of
+                               Microsoft Excel with advanced features and
+                               functions, including data analysis tools, pivot
+                               tables, macros, and automation techniques,
+                               enhancing your efficiency and effectiveness in
+                               spreadsheet-based tasks.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                          <div>  <span><i
+                            class="text-4xl mb-2 fas fa-calendar-alt"></i>
+                    </span>
+                    <h3 class="text-xl font-semibold mb-2">Office
+                        Essentials</h3>
+                    <p class="py-2 mb-2">Master essential office skills
+                        such as communication, time management,
+                        organization, and productivity tools like
+                        Microsoft Office suite, email management, and
+                        file organization, enabling you to thrive in a
+                        modern office environment.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="bg-green-100 p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                            <div><span><i
+                                class="text-4xl mb-2 fas fa-network-wired"></i>
+                        </span>
+                        <h3 class="text-xl font-semibold mb-2">Full Stack
+                            Development</h3>
+                        <p class="py-2 mb-2">Become proficient in both
+                            front-end and back-end web development, learning
+                            technologies like HTML, CSS, JavaScript,
+                            Node.js, Express.js, and databases, to build
+                            dynamic, scalable web applications from start to
+                            finish.</p></div>
+                            <div> <a
+                                    class=" bg-blue-500 shadow-lg hover:bg-blue-300 py-2 px-4 rounded text-white font-bold"
+                                    href="https://wa.me/message/VOW3WRPMI7ARF1">See
+                                    More</a>
+                            </div>
+                        </div>
+                        <!-- Add more courses as needed -->
+                    </div>
+                </div>
+            </section>
+          <section class="bg-gray-100  ">
+       <div class="container  mx-auto py-10">
+        <h1 class="text-3xl font-bold py-3">About Us</h1>
+       <div class=" text-black">
+        <p class="pb-3">At TechLife, we are passionate about empowering individuals with the knowledge and skills they need to succeed in the ever-evolving tech industry. Our mission is to provide high-quality education and practical experience, ensuring our students are well-prepared for the challenges and opportunities ahead.</p>
+        <p>With a focus on innovation, hands-on learning, and real-world application, we strive to make a lasting impact on our students' careers and the tech community as a whole. Join us at TechLife Technology and take the first step towards a brighter, tech-savvy future.</p>
+        <p></p>
+       </div>
+       </div>
+          </section>
+            <section class="pb-20 px-5 pt-10">
+                <h2
+                    class="text-center text-2xl font-bold text-gray-800 my-8">Contact
+                    Us</h2>
+                <form id="contact-form"
+                    class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <label for="name"
+                            class="block text-gray-700 font-bold mb-2">Name:</label>
+                        <input type="text" id="name" name="name" required
+                            class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email"
+                            class="block text-gray-700 font-bold mb-2">Email:</label>
+                        <input type="email" id="email" name="email" required
+                            class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message"
+                            class="block text-gray-700 font-bold mb-2">Message:</label>
+                        <textarea id="message" name="message" rows="4" required
+                            class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600 focus:outline-none focus:bg-green-600">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 TekLife. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+        (function() {
+            // Initialize EmailJS
+            emailjs.init("lyPeLSkdqJx72JJlm");
+
+            // Add event listener to the form
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                // Validate form fields
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const message = document.getElementById('message').value.trim();
+
+                if (!name || !email || !message) {
+                    alert('Please fill in all fields.');
+                    return;
+                }
+
+                // These IDs from the previous steps
+                emailjs.sendForm('service_f1bvczq', 'template_64w4t5j', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        alert('Your message has been sent successfully!');
+                        document.getElementById('contact-form').reset();
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                        alert('Failed to send your message. Please try again.');
+                    });
+            });
+        })();
+    </script>
+    </body>
+</html>
