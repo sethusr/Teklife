@@ -57,13 +57,24 @@
         <header class="bg-gray-800 text-white py-4">
             <nav class="container mx-auto flex justify-around">
                 <div class="text-2xl uppercase font-bold">TekLife</div>
-                <ul class="flex gap-3 space-x-4">
+                <ul class="hidden md:flex gap-3 space-x-4">
                     <li><a href="#" class="hover:text-gray-400">Home</a></li>
                     <li><a href="#" class="hover:text-gray-400">Courses</a></li>
                     <li><a href="#" class="hover:text-gray-400">About</a></li>
                     <li><a href="#" class="hover:text-gray-400">Contact</a></li>
                 </ul>
+                <div class="md:hidden" onclick="menuHandel()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
+            <div>
+                <ul id="menu" class="hidden flex flex-col gap-3 items-center py-5">
+                    <li><a href="#" class=" hover:text-gray-400">Home</a></li>
+                    <li><a href="#" class=" hover:text-gray-400">Courses</a></li>
+                    <li><a href="#" class=" hover:text-gray-400">About</a></li>
+                    <li><a href="#" class=" hover:text-gray-400">Contact</a></li>
+                </ul>
+            </div>
         </header>
         <main class="flex-grow">
             <section
@@ -247,14 +258,15 @@
                 </div>
             </section>
           <section class="bg-gray-100  ">
-       <div class="container  mx-auto py-10">
-        <h1 class="text-3xl font-bold py-3">About Us</h1>
-       <div class=" text-black">
-        <p class="pb-3">At TechLife, we are passionate about empowering individuals with the knowledge and skills they need to succeed in the ever-evolving tech industry. Our mission is to provide high-quality education and practical experience, ensuring our students are well-prepared for the challenges and opportunities ahead.</p>
-        <p>With a focus on innovation, hands-on learning, and real-world application, we strive to make a lasting impact on our students' careers and the tech community as a whole. Join us at TechLife Technology and take the first step towards a brighter, tech-savvy future.</p>
-        <p></p>
-       </div>
-       </div>
+            <div class="sm:px-20 md:px-20 mx-auto mb-6 py-10 px-3">
+                <h1 class="text-3xl font-bold py-3">About Us</h1>
+                <div class="text-black">
+                    <p class="pb-3">At TechLife, we are passionate about empowering individuals with the knowledge and skills they need to succeed in the ever-evolving tech industry. Our mission is to provide high-quality education and practical experience, ensuring our students are well-prepared for the challenges and opportunities ahead.</p>
+                    <p>With a focus on innovation, hands-on learning, and real-world application, we strive to make a lasting impact on our students' careers and the tech community as a whole. Join us at TechLife Technology and take the first step towards a brighter, tech-savvy future.</p>
+                    <p></p>
+                </div>
+            </div>
+            
           </section>
             <section class="pb-20 px-5 pt-10">
                 <h2
@@ -322,6 +334,15 @@
                     });
             });
         })();
+
+
+
+        function menuHandel(){
+        let menu=document.getElementById("menu")
+
+
+        }
     </script>
+
     </body>
 </html>
